@@ -6,7 +6,7 @@ server:
 
 spring:
   datasource:
-    url: jdbc:mariadb://localhost:3306/jpa
+    url: jdbc:mariadb://localhost:3307/jpa
     username: root
     password: 1234
     driver-class-name: org.mariadb.jdbc.Driver
@@ -39,12 +39,12 @@ jwt:
 
 # 업로드파일 저장 경로
 upload:
-  path: D:/todo_upload
+  path: C:/todo_upload
 
 # s3 접근 설정
 aws:
   credentials:
-    accessKey: AKIAWFGAQ3PXNSYXOVF7
-    secretKey: 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
+    accessKey: AKIAQ7KSWXNCTW3QQATW
+    secretKey: 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
   region: ap-northeast-2
-  bucketName: todo-app-upload-file-bucket13579
+  bucketName: codejk-todo-app-upload-bucket
