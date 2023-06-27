@@ -1,14 +1,14 @@
 
 
 server:
-  port: 8181
+  port: 80
 
 
 spring:
   datasource:
-    url: jdbc:mariadb://localhost:3307/jpa
+    url: jdbc:mariadb://codejk90-database.cnbyf5froxe6.ap-northeast-2.rds.amazonaws.com:3306/prj
     username: root
-    password: 1234
+    password: Chopa2803!
     driver-class-name: org.mariadb.jdbc.Driver
   jpa:
     # show-sql: true  # 자동 생성된 쿼리를 보여주는 옵션
